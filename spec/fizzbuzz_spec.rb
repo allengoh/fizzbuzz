@@ -1,4 +1,4 @@
-require 'fizzbuzz'
+require "fizzbuzz"
 
 describe "fizzbuzz" do
   it 'returns "fizzbuzz" when passed both multiples of 3 and 5' do
@@ -14,6 +14,6 @@ end
 
 describe "fizzbuzz" do
   it 'returns "buzz" when passed multiples of 5' do
-    expect (fizzbuzz(5)).to eq "buzz"
+    expect(fizzbuzz(5)).to eq "buzz"
   end
 end
